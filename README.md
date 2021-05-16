@@ -12,9 +12,9 @@ DCGAN, or Deep Convolutional GAN, is a generative adversarial network architectu
 - Using ReLU activation in generator for all layers except for the output, which uses tanh.
 - Using LeakyReLU activation in the discriminator for all layer.
 
-![DCGAN](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/DCGAN.jpg)
+![DCGAN](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/DCGAN.png)
 
-#### GAN Model
+### GAN Model
 
 1. Define Generator and Discriminator network architecture
 2. Train the Generator model to generate the fake data that can fool Discriminator
@@ -23,9 +23,9 @@ DCGAN, or Deep Convolutional GAN, is a generative adversarial network architectu
 
 ![Model](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/GAN-architecture.png)
 
-#### Dataset Setup
+### Dataset Setup
 
-[Cartoon Set](https://google.github.io/cartoonset/) which is a collection of random 2D cartoon avtar images.
+[Cartoon Set](https://google.github.io/cartoonset/) which is a collection of random 2D cartoon avatar images.
 Download the dataset using the shell script.
 
 ```
@@ -35,7 +35,11 @@ sh download-dataset.sh
 This will download the dataset in `data/` directory.
 If you want to train the model in Google Colab, upload the dataset folder to Google Drive. The destination path should be `projects/cartoons/`
 
-#### Model Results
+### Model Training
 
 Check out the model being trained to generate cartoon images.
-![Model](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/GAN-training.gif)
+![Training](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/GAN-training.gif)
+
+### Model Prediction
+
+![Model](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/GAN-output.png)
