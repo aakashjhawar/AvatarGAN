@@ -10,7 +10,7 @@ Deep Convolutional GAN is a generative adversarial network architecture. It uses
 - Using ReLU activation in generator for all layers except for the output, which uses tanh.
 - Using LeakyReLU activation in the discriminator for all layer.
 
-Checkout the detailed explanation of AvatarGAN in the blog [AvatarGAN](https://medium.com/@aakashjhawar)
+Checkout the detailed explanation of AvatarGAN in the article [AvatarGAN](https://aakashjhawar.medium.com/avatargan-generate-cartoon-images-using-gan-1ffe7d33cfbb)
 
 ![DCGAN](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/DCGAN.png)
 
