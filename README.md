@@ -43,4 +43,3 @@ Check out the model being trained to generate cartoon images.
 ### Model Prediction
 
 ![Model](https://github.com/aakashjhawar/AvatarGAN/blob/master/assets/images/GAN-output.png)
-
